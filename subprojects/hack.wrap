@@ -1,0 +1,6 @@
+[wrap-git]
+url = https://github.com/azchatlanin/hack.git
+revision = master
+
+[provide]
+hack = hack_dep
