@@ -3,7 +3,7 @@
 #include <vector>
 #include <thread>
 
-namespace actfm
+namespace actorfm
 {
   template<typename message_t, typename result_t>
   class actor 

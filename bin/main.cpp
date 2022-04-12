@@ -9,10 +9,10 @@ struct message
   result_t data;
 };
 
-class sorting : public actfm::actor<message, result_t>
+class sorting : public actorfm::actor<message, result_t>
 {
   public:
-    result_t set_message(message ms, actfm::actor<message, result_t>* ac = nullptr) override
+    result_t set_message(message ms, actorfm::actor<message, result_t>* ac = nullptr) override
     {
       result_t res;
 
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
   sorting sort;
   sort.set_message(ms);
   
-  actfm::actor_controller::instance().set_actro(sort);
+  actorfm::actor_controller::instance().set_actro(sort);
   
   hack::log()("completed");
 }

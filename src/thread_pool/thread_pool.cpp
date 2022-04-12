@@ -1,6 +1,6 @@
 #include "thread_pool.hpp"
 
-namespace actfm
+namespace actorfm
 {
   thread_pool::thread_pool()
   {

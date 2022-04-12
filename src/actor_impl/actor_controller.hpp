@@ -4,7 +4,7 @@
 
 #include "scheduler.hpp"
 
-namespace actfm
+namespace actorfm
 {
   class actor_controller
   {

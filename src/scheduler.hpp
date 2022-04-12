@@ -6,7 +6,7 @@
 
 #include "logger/logger.hpp"
 
-namespace actfm
+namespace actorfm
 {
   class scheduler 
   {
